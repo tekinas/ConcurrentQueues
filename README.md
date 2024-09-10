@@ -14,4 +14,4 @@ A single producer, single consumer concurrent queue which stores buffers of arbi
 ## BufferQueueMCSP
 A single producer, multiple consumer concurrent queue which stores buffers of arbitrary size and alignment.
 ## FunctionWrapper
-Convert a function pointer known at compile time to a callable type without any state (stateless lambda).  It's a constexpr variable template which takes as its template parameter a function pointer and and invoke it by perfect forwarding its arguments to the function pointer. This is intended to be used with Function queues to save space when storing function pointers known at compile time.
+Convert a function pointer known at compile time to a callable type without any state.  It's a constexpr variable template which takes as its template parameter a function pointer and and invoke it by perfect forwarding its arguments to the function pointer. This is intended to be used with Function queues to save space when storing function pointers known at compile time.
